@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Веломагазин</title>
     <style>
-        /* Уникальный неоново-фиолетовый стиль */
         * {
             margin: 0;
             padding: 0;
@@ -20,7 +19,6 @@
             min-height: 100vh;
         }
 
-        /* Киборг-шапка */
         header {
             background: rgba(20, 5, 30, 0.95);
             backdrop-filter: blur(12px);
@@ -107,7 +105,6 @@
             text-decoration: none;
         }
 
-        /* Неоновые кнопки */
         .btn {
             display: inline-flex;
             align-items: center;
@@ -156,7 +153,6 @@
             text-decoration: none;
         }
 
-        /* Кнопка подробнее - специальные стили */
         .btn-detail {
             display: inline-flex;
             align-items: center;
@@ -193,7 +189,6 @@
             transform: translateY(0) scale(0.98);
         }
 
-        /* Основной контент */
         main {
             max-width: 1400px;
             margin: 2rem auto;
@@ -307,7 +302,6 @@
             line-height: 1.2;
         }
 
-        /* Неоновые уведомления */
         .alert {
             padding: 1.2rem 1.8rem;
             margin-bottom: 2rem;
@@ -341,7 +335,6 @@
             margin-left: 1.5rem;
         }
 
-        /* Формы */
         .field {
             margin-bottom: 1.5rem;
         }
@@ -376,7 +369,6 @@
             border-color: #ff00ff;
         }
 
-        /* Таблицы */
         .table {
             width: 100%;
             background: rgba(20, 5, 30, 0.7);
@@ -409,7 +401,6 @@
             background: rgba(255, 0, 255, 0.1);
         }
 
-        /* Заголовки */
         h1 {
             font-size: 3rem;
             font-weight: 900;
@@ -436,7 +427,6 @@
             padding-left: 1.5rem;
         }
 
-        /* Карточки */
         .card {
             background: rgba(20, 5, 30, 0.7);
             backdrop-filter: blur(10px);
@@ -445,8 +435,6 @@
             padding: 2rem;
             box-shadow: 0 0 40px rgba(138, 43, 226, 0.5);
         }
-
-        /* Детальная страница */
         .product-hero {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -459,7 +447,6 @@
             box-shadow: 0 0 70px rgba(255, 0, 255, 0.5);
         }
 
-        /* Бейджи */
         .badge {
             display: inline-block;
             padding: 0.3rem 1.2rem;
@@ -472,7 +459,6 @@
             box-shadow: 0 0 20px #ff00ff;
         }
 
-        /* Разделитель */
         .divider {
             margin: 3rem 0;
             height: 3px;
@@ -480,7 +466,6 @@
             box-shadow: 0 0 30px #ff00ff;
         }
 
-        /* Утилиты */
         .flex {
             display: flex;
             align-items: center;
@@ -516,7 +501,6 @@
             gap: 1rem;
         }
 
-        /* Адаптивность */
         @media (max-width: 768px) {
             .nav {
                 flex-direction: column;
@@ -552,7 +536,6 @@
             }
         }
 
-        /* Кастомный скроллбар */
         ::-webkit-scrollbar {
             width: 12px;
             background: #0a0a0f;
@@ -568,7 +551,6 @@
             background: linear-gradient(45deg, #ff00ff, #00ffff);
         }
 
-        /* Пример использования кнопки подробнее в карточке товара */
         .product-actions {
             margin-top: 1rem;
         }
